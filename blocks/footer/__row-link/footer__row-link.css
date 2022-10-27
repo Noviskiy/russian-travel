@@ -1,0 +1,15 @@
+.footer__row-link {
+    margin: 0;
+    text-decoration:none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 568px) {
+    .footer__row-link {
+        font-size: 24px;
+        line-height: 24px;
+    }
+}
