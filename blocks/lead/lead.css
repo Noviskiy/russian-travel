@@ -2,7 +2,6 @@
     font-family: "Inter", Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    max-height: 1005px;
     max-width: 984px;
     margin: 0 148px 0;
 }

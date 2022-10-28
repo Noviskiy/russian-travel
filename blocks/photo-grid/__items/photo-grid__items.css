@@ -2,7 +2,6 @@
     margin: 0;
     padding-left: 0;
     min-width: 284px;
-    min-height: 213px;
     display: grid;
     place-items: center;
     grid-template-columns: repeat(4, 1fr);

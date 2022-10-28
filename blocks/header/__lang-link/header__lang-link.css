@@ -1,7 +1,20 @@
 .header__lang-link {
-    display: flex;
-    gap: 18px;
-    list-style-type: none;
     margin: 0;
-    align-items: flex-end;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 568px) {
+    .header__lang-link-RU {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+/*Здесь решил реализовать через :focus, но если надо через 
+отдельный модификатор, без проблем добавлю модификатор*/
+.header__lang-link:focus {
+    text-decoration: underline; 
 }

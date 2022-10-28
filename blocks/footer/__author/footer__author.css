@@ -5,6 +5,12 @@
     font-weight: 400;
 }
 
+@media screen and (max-width: 984px) {
+    .footer__author {
+        font-size: max(14px, 1.99vw);
+    }
+}
+
 @media screen and (max-width: 568px) {
     .footer__author {
         font-size: 14px;
