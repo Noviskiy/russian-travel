@@ -7,6 +7,12 @@
     gap: 20px;
 }
 
+@media screen and (max-width: 984px) {
+    .footer {
+        padding: 0 24px 0;
+    }
+}
+
 @media screen and (max-width: 568px) {
     .footer {
         padding: 0 16px 0;
