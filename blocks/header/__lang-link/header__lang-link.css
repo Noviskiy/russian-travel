@@ -13,8 +13,3 @@
         line-height: 20px;
     }
 }
-/*Здесь решил реализовать через :focus, но если надо через 
-отдельный модификатор, без проблем добавлю модификатор*/
-.header__lang-link:focus {
-    text-decoration: underline; 
-}

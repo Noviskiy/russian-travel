@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 984px) {
     .lead__title {
-        font-size: 9.75vw;
+        font-size: min(96px, 13vw);
     }
 }
 
